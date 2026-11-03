@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mohnish Purashwani — AI Systems Integrator & Rapid Web Developer. Autonomous AI environments, live location-based data networks, and automated web platforms." />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Mohnish Purashwani — AI Systems Integrator &amp; Rapid Web Developer</title>
+
+  <!-- Premium Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#0F172A',
+          },
+          fontFamily: {
+            display: ['"Space Grotesk"', 'sans-serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- Custom smooth-scroll & theme utilities -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="bg-white text-slate-800 font-sans antialiased selection:bg-blue-600 selection:text-white">
+
+  <!-- ============ AMBIENT BACKGROUND (subtle) ============ -->
+  <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden" aria-hidden="true">
+    <div class="glow glow-blue"></div>
+    <div class="glow glow-indigo"></div>
+    <div class="glow glow-sky"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(37,99,235,0.05),transparent_55%)]"></div>
+    <div class="absolute inset-0 grid-background"></div>
+  </div>
+
+  <!-- ============ STICKY GLASS NAVIGATION ============ -->
+  <header class="fixed top-0 inset-x-0 z-50">
+    <nav id="siteNav" class="glass-nav mx-auto mt-4 flex max-w-6xl items-center justify-between rounded-2xl border border-slate-200/80 px-5 py-3 md:px-8" aria-label="Primary">
+      <a href="#top" class="group flex items-center gap-3">
+        <span class="grid h-9 w-9 place-items-center rounded-lg bg-ink font-display text-sm font-bold text-white shadow-sm shadow-slate-900/20 transition-transform duration-300 group-hover:-translate-y-0.5">MP</span>
+        <span class="hidden font-display text-sm font-semibold tracking-tight text-ink sm:block">
+          Mohnish <span class="font-normal text-slate-500">Purashwani</span>
+        </span>
+      </a>
+
+      <div class="hidden items-center gap-8 md:flex">
+        <a href="#projects" class="nav-link text-[13px] font-medium text-slate-500 transition hover:text-ink">Projects</a>
+        <a href="#pipeline" class="nav-link text-[13px] font-medium text-slate-500 transition hover:text-ink">Pipeline</a>
+        <a href="#contact" class="nav-link text-[13px] font-medium text-slate-500 transition hover:text-ink">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top" class="mx-auto max-w-6xl px-6">
+
+    <!-- ============ HERO ============ -->
+    <section class="flex min-h-[92vh] flex-col justify-center pt-32 pb-24">
+      <h1 class="max-w-4xl font-display text-4xl font-bold leading-[1.05] tracking-tight text-ink sm:text-6xl lg:text-7xl">
+        Architecting <span class="bg-gradient-to-r from-blue-700 to-indigo-600 bg-clip-text text-transparent">autonomous AI</span> systems that ship to production.
+      </h1>
+
+      <p class="mt-5 font-display text-base font-medium tracking-tight text-slate-600 sm:text-lg">
+        AI Systems Integrator <span class="mx-2 text-slate-300">/</span> Rapid Web Developer
+      </p>
+
+      <p class="mt-6 max-w-2xl text-[15px] leading-relaxed text-slate-500 sm:text-base">
+        I bridge the gap between architectural concept and deployment. Utilizing autonomous AI environments like OpenCode, I orchestrate live location-based data networks, conversational chat features, and automated web platforms at enterprise speeds.
+      </p>
+
+      <div class="mt-9 flex flex-wrap items-center gap-4">
+        <a href="#projects"
+           class="group inline-flex items-center gap-2 rounded-xl bg-ink px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-slate-900/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-900/30">
+          Explore Applications
+          <svg class="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        </a>
+        <a href="mailto:mohnish11223@gmail.com"
+           class="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-7 py-3.5 text-sm font-semibold text-slate-700 shadow-sm shadow-slate-900/5 transition-all duration-300 hover:-translate-y-1 hover:border-slate-300 hover:text-ink hover:shadow-md hover:shadow-slate-900/10">
+          <svg class="h-4 w-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+          mohnish11223@gmail.com
+        </a>
+      </div>
+
+      <!-- Capability strip -->
+      <div class="mt-14 flex max-w-3xl flex-wrap items-center gap-x-6 gap-y-3 border-t border-slate-200 pt-6 text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-400">
+        <span>OpenCode Orchestration</span>
+        <span class="text-slate-200">/</span>
+        <span>Conversational UI</span>
+        <span class="text-slate-200">/</span>
+        <span>Geolocation Data</span>
+        <span class="text-slate-200">/</span>
+        <span>LLM Query Logic</span>
+        <span class="text-slate-200">/</span>
+        <span>Rapid Deployment</span>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED PROJECTS ============ -->
+    <section id="projects" class="scroll-mt-28 py-24">
+      <div class="mb-12 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-blue-600">Featured Projects</p>
+          <h2 class="mt-3 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">Live Applications</h2>
+        </div>
+        <p class="max-w-sm text-sm leading-relaxed text-slate-500">Two production-grade portals running on intelligent chat ecosystems and geolocation agents.</p>
+      </div>
+
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+
+        <!-- Project 1 -->
+        <article class="card group relative flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white p-7">
+          <div class="relative flex items-start justify-between">
+            <span class="rounded-lg border border-blue-100 bg-blue-50 p-2.5 text-blue-700">
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+            </span>
+            <div class="flex items-center gap-3">
+              <span class="inline-flex items-center gap-1.5 rounded-full border border-emerald-200 bg-emerald-50 px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.16em] text-emerald-700">
+                <span class="h-1 w-1 rounded-full bg-emerald-500"></span> Live
+              </span>
+              <span class="font-display text-xs font-semibold tracking-widest text-slate-300">01</span>
+            </div>
+          </div>
+
+          <p class="relative mt-6 text-[11px] font-semibold uppercase tracking-[0.25em] text-blue-600">AI Geolocation Agent</p>
+          <h3 class="relative mt-2 font-display text-2xl font-bold tracking-tight text-ink">Salalah Khareef Guide</h3>
+          <p class="relative mt-4 flex-1 text-[14px] leading-relaxed text-slate-500">
+            A seasonal tourist discovery application featuring an embedded conversational chat window. Users can query regional weather, points of interest, and local attractions to receive immediate contextual information.
+          </p>
+
+          <div class="relative mt-6 flex flex-wrap gap-2">
+            <span class="tag">Conversational UI</span>
+            <span class="tag">Places API</span>
+            <span class="tag">OpenCode Orchestrated</span>
+          </div>
+
+          <div class="relative mt-7 border-t border-slate-100 pt-5">
+            <a href="https://salalah-guide.netlify.app/" target="_blank" rel="noopener noreferrer"
+               class="group/link inline-flex w-full items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50/60 hover:text-blue-700">
+              <span class="flex items-center gap-2">
+                <svg class="h-4 w-4 text-blue-600" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+                Visit Live Application
+              </span>
+              <svg class="h-4 w-4 transition-transform duration-300 group-hover/link:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card group relative flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white p-7">
+          <div class="relative flex items-start justify-between">
+            <span class="rounded-lg border border-blue-100 bg-blue-50 p-2.5 text-blue-700">
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.686C3.24 5.877 3 6.269 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z"/></svg>
+            </span>
+            <div class="flex items-center gap-3">
+              <span class="inline-flex items-center gap-1.5 rounded-full border border-emerald-200 bg-emerald-50 px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.16em] text-emerald-700">
+                <span class="h-1 w-1 rounded-full bg-emerald-500"></span> Live
+              </span>
+              <span class="font-display text-xs font-semibold tracking-widest text-slate-300">02</span>
+            </div>
+          </div>
+
+          <p class="relative mt-6 text-[11px] font-semibold uppercase tracking-[0.25em] text-blue-600">Intelligent Routing</p>
+          <h3 class="relative mt-2 font-display text-2xl font-bold tracking-tight text-ink">Oman National Guide</h3>
+          <p class="relative mt-4 flex-1 text-[14px] leading-relaxed text-slate-500">
+            A nationwide portal leveraging an intelligent chat ecosystem. It filters queries to map location recommendations, landmark backgrounds, and cultural logistics across Oman instantly via user message prompts.
+          </p>
+
+          <div class="relative mt-6 flex flex-wrap gap-2">
+            <span class="tag">LLM Query Logic</span>
+            <span class="tag">Dynamic Web Templates</span>
+            <span class="tag">Tailwind Utility CSS</span>
+          </div>
+
+          <div class="relative mt-7 border-t border-slate-100 pt-5">
+            <a href="https://oman-guide.netlify.app/" target="_blank" rel="noopener noreferrer"
+               class="group/link inline-flex w-full items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50/60 hover:text-blue-700">
+              <span class="flex items-center gap-2">
+                <svg class="h-4 w-4 text-blue-600" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+                Visit Live Application
+              </span>
+              <svg class="h-4 w-4 transition-transform duration-300 group-hover/link:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ SYSTEM ORCHESTRATION PIPELINE ============ -->
+    <section id="pipeline" class="scroll-mt-28 py-24">
+      <div class="mb-12 max-w-2xl">
+        <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-blue-600">System Orchestration Pipeline</p>
+        <h2 class="mt-3 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">The AI Workflow</h2>
+        <p class="mt-4 text-sm leading-relaxed text-slate-500">A disciplined three-stage loop that turns intent into a deployed, audited codebase.</p>
+      </div>
+
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+
+        <!-- Step 1 -->
+        <div class="card group relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-7">
+          <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+          <div class="flex items-center justify-between">
+            <span class="grid h-10 w-10 place-items-center rounded-xl border border-blue-100 bg-blue-50 text-blue-700">
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+            </span>
+            <span class="font-display text-[11px] font-semibold tracking-[0.18em] text-slate-300">STEP 1</span>
+          </div>
+          <p class="mt-6 font-display text-sm font-bold tracking-[0.2em] text-blue-600">01 / SCHEMA</p>
+          <div class="mt-4 h-px w-full bg-slate-100"></div>
+          <p class="mt-4 text-[14px] leading-relaxed text-slate-500">
+            Using OpenCode's Plan Mode to structure system databases and structural layouts before launching executions.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="card group relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-7">
+          <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+          <div class="flex items-center justify-between">
+            <span class="grid h-10 w-10 place-items-center rounded-xl border border-blue-100 bg-blue-50 text-blue-700">
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"/></svg>
+            </span>
+            <span class="font-display text-[11px] font-semibold tracking-[0.18em] text-slate-300">STEP 2</span>
+          </div>
+          <p class="mt-6 font-display text-sm font-bold tracking-[0.2em] text-blue-600">02 / PROMPT</p>
+          <div class="mt-4 h-px w-full bg-slate-100"></div>
+          <p class="mt-4 text-[14px] leading-relaxed text-slate-500">
+            Engineering advanced prompt parameters to manage layout states and code styling rules.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="card group relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-7">
+          <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
+          <div class="flex items-center justify-between">
+            <span class="grid h-10 w-10 place-items-center rounded-xl border border-blue-100 bg-blue-50 text-blue-700">
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z"/></svg>
+            </span>
+            <span class="font-display text-[11px] font-semibold tracking-[0.18em] text-slate-300">STEP 3</span>
+          </div>
+          <p class="mt-6 font-display text-sm font-bold tracking-[0.2em] text-blue-600">03 / DEPLOY</p>
+          <div class="mt-4 h-px w-full bg-slate-100"></div>
+          <p class="mt-4 text-[14px] leading-relaxed text-slate-500">
+            Auditing output codebases and spinning them live instantly via cloud hosting platforms.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER / CONTACT ============ -->
+  <footer id="contact" class="relative scroll-mt-28 border-t border-slate-200 bg-slate-50/70 pb-10 pt-24">
+    <div class="relative mx-auto max-w-6xl px-6 text-center">
+      <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-blue-600">Contact Interface</p>
+      <h2 class="mx-auto mt-4 max-w-2xl font-display text-3xl font-bold tracking-tight text-ink sm:text-5xl">
+        Let's orchestrate your next system.
+      </h2>
+      <p class="mx-auto mt-4 max-w-md text-sm leading-relaxed text-slate-500">
+        Open a direct channel for architecture reviews, integrations, and rapid deployment requests.
+      </p>
+
+      <a href="mailto:mohnish11223@gmail.com"
+         class="group mt-8 inline-flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-6 py-4 font-display text-lg font-semibold text-ink shadow-sm shadow-slate-900/5 transition-all duration-300 hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl hover:shadow-slate-900/10 sm:text-xl">
+        mohnish11223@gmail.com
+        <svg class="h-5 w-5 text-blue-600 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+      </a>
+
+      <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
+        <button id="copyEmail"
+                data-email="mohnish11223@gmail.com"
+                class="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-2.5 text-[13px] font-semibold text-slate-600 shadow-sm shadow-slate-900/5 transition-all duration-300 hover:-translate-y-0.5 hover:border-slate-300 hover:text-ink">
+          <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25H3c-1.103 0-2 .897-2 2v11.25c0 1.103.897 2 2 2h9.75a2.25 2.25 0 001.5-3.75l-.918-1.077c-.34-.4-.765-.695-1.234-.84a2.25 2.25 0 00-1.944.07l-.828.413zm7.278-1.913L21 5.25M21 5.25v4.5M21 5.25h-4.5"/></svg>
+          <span id="copyLabel">Copy Address</span>
+        </button>
+      </div>
+
+      <p class="mt-14 text-[13px] tracking-wide text-slate-400">
+        &copy; <span id="year"></span> Mohnish Purashwani. Hosted on GitHub Pages Architecture.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Copy-to-clipboard micro interaction + nav shadow on scroll -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const copyBtn = document.getElementById('copyEmail');
+    const copyLabel = document.getElementById('copyLabel');
+    copyBtn.addEventListener('click', async () => {
+      const email = copyBtn.dataset.email;
+      try {
+        await navigator.clipboard.writeText(email);
+        copyLabel.textContent = 'Copied!';
+        copyBtn.classList.add('is-copied');
+      } catch (e) {
+        copyLabel.textContent = email;
+      }
+      setTimeout(() => {
+        copyLabel.textContent = 'Copy Address';
+        copyBtn.classList.remove('is-copied');
+      }, 2000);
+    });
+
+    const nav = document.getElementById('siteNav');
+    const onScroll = () => nav.classList.toggle('is-scrolled', window.scrollY > 12);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+  </script>
+</body>
+</html>
